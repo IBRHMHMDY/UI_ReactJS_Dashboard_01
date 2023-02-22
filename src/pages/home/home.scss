@@ -1,0 +1,28 @@
+.home{
+   display: flex;
+
+   .homeContainer{
+      flex: 6;
+      border-left: 1px solid rgb(231, 228, 228);
+      .widgets, .charts{
+         display: flex;
+         gap: 20px;
+         padding: 20px;
+      }
+      .chats{
+         padding: 5px 20px;
+      }
+      .tableSection{
+         margin: 20px;
+         padding: 20px;
+         -webkit-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+         box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+         .titleSection{
+            font-size: 20px;
+            font-weight: 500;
+            color: gray;
+            margin-bottom: 20px;
+         }
+      }
+   }
+}
